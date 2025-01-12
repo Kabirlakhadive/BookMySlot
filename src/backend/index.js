@@ -4,7 +4,10 @@ const admin = require('firebase-admin');
 const serviceAccount = require('./tradewise-6f829-firebase-adminsdk-62k4g-4f831f82b9.json');
 const authRoutes = require('./routes/auth');
 app.use('/api/auth', authRoutes);
+import App from "/App";
 
+
+ReactDOM.render(<App />, document.getElementById("root"));
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
