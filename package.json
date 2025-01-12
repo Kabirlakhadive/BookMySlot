@@ -4,23 +4,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
-}
-
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "parcel": "^2.13.3"
   }
-
-
-
 }
