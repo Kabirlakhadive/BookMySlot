@@ -1,7 +1,12 @@
 import React from 'react';
+import LandingPage from './Pages/LandingPage';
+import '.'
 
 const App = () => {
-  return <h1>Hello, React from Scratch!</h1>;
+  return 
+    <div>
+        <LandingPage />
+    </div>
 };
 
 export default App;
